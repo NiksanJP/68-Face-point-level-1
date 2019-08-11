@@ -1,6 +1,8 @@
 # 68-Face-point-level-1
 Detect 68 points on face live. This is running two neural networks which are very light as it runs on 30% of Intel i7-7700k CPU. Please run liveDetection.py for live detection on face.
 
+Hire me: https://www.linkedin.com/in/nikheil-malakar-20a2b7166/
+
 # Before you start
 This project is still in development stage which will have level 2 and level 3 keypoint detection because the person's face maybe far or
 close, so the full version should be out soon.
