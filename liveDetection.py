@@ -106,7 +106,7 @@ class faceDetection:
         
         self.model.compile(optimizer=tf.compat.v1.train.AdamOptimizer(), loss='mse', metrics=['mae'])
         print(self.model.summary())
-        self.model.load_weights('136Points.h5')
+        self.model.load_weights('training/training')
         print("MODEL LOADED")
     
     def sessionMaker(self):
