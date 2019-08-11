@@ -1,5 +1,5 @@
 # 68-Face-point-level-1
-Detect 68 points on face live. This is running two neural networks which are very light as it runs on 30% of Intel i7-7700k CPU. Please run liveDetection.py for live detection on face.
+Detect 68 points on face live. This is running two neural networks which are very light as it runs on 30% of Intel i7-7700k CPU. Please run liveDetection.py for live detection on face. Model score= loss:5 val_los:6 on 100X100 grayscale image. The reason why there is such a high loss, it is due to the fact the validation data is converted from float to int so there were some rounding up resulting in the prediction. For example the point was 6.2 but was rounded up to 6, concluding the loss from 138 points will result to such a high loss.
 
 Hire me: https://www.linkedin.com/in/nikheil-malakar-20a2b7166/
 
